@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+font-family: "Raleway", sans-serif;    
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+header{
+background-color: rgb(18, 157, 203);
+height: 70px;  
+color: white; 
+padding: 10px 35px;
+ position: sticky;
+z-index: 1000;
+ top: 0;
+}
+.logo{
+float: left;    
+}
+.menu{
+float: left; 
+margin: 10px;
+margin-left: 400px;
+
+}
+li{
+float: left; 
+list-style-type: none;
+margin-right: 25px; 
+}
+a{
+text-decoration: none; 
+color: white; 
+}
+a:hover{
+border-bottom: 1px solid black;    
+}
+.btn{
+    float: right;
+    border-radius: 30px;    
+
+ 
+}
+button{
+padding-left: 15px;
+padding-right:15px;
+padding-bottom: 5px;
+padding-top: 5px;
+border-radius: 50px;    
+}
+.Login{
+background-color: gray;
+color: black;   
+border-radius: 50px;  
+}
+.Register{
+    background-color: black;
+    color: white;
+    border-radius: 50px; 
+}
+
+
+
+
+
+
+
+
+
+.Hero-Section{
+background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrSdCTKEfhF5T7Din0b9C1wNGk8GW2CyTtQ&s);
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;  
+padding-top: 200px;
+
+}
+.heading{
+    color: white; 
+text-align: center;
+font-size: 35px; 
+margin-bottom: 15px;
+
+}
+.para{
+    color: white; 
+text-align: center;    
+margin-bottom: 15px;    
+}
+.Explor{
+text-align: center;
+margin: 0 20px;
+
+}
+.explor-btn{
+border-radius: 30px; 
+padding: 0 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+
+
+
+
+               
+
+
+
+
+
+
+.Fath{
+margin-left: 25px; 
+padding-bottom: 50px;  
+padding-left: 60px;
+}
+.text{
+ padding-top: 270px;   
+font-size: 50px;    
+color: black;
+   
+
+}
+.span{
+color: orange;
+}
+.discription{
+    padding-top: 15px;
+    color: black;
+    padding-bottom: 15px;
+}
+.lets{
+background-color: black;
+color: white;
+font-size: 15px;
+border-radius: 10px;
+padding: 10px;  
+/* margin-left: 5px;   */
+}
+
+
+
+
+
+
+
+
+                   /* Cards */
+
+
+
+
+
+.card{
+  float: left;
+  border-radius: 15px !important;  
+height: 400px !important;
+overflow: hidden;
+
+  margin: 10px;   /* spacing control یہاں سے ہوگا */
+}
+
+.card-1{
+width: 286px;
+height: 200px;  
+
+}
+.card img{
+border-top-left-radius: 15px !important; 
+border-top-right-radius: 15px !important;    
+
+}
+.card-container{
+padding-left: 60px;    
+}
+.foot{
+ clear: both;
+ text-align: center;  
+ padding-top: 180px; 
+ font-size: 20px;
+}
+.foot i{
+margin: 0 10px;
+}
+.footer-para{
+   text-align: center; 
+}
